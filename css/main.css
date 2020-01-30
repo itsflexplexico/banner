@@ -25,9 +25,15 @@ html {
 }
 
 .banner {
-
+  position: relative;
+  max-height: 24em;
+  overflow: hidden;
 }
 
 .banner-content {
-
+  position: absolute;
+  color: #FFF;
+  width: 100%;
+  bottom:0;
+  left:0;
 }
